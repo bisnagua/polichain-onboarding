@@ -2,17 +2,20 @@
 
 type BotaoProps = { 
     texto: string;
-    aoClicar?: () => void; //?→ opicional dar
+    aoClicar?: () => void; //? → opicional dar
+    children?: React.ReactNode; 
+    cor?: string;
 };
 
 
-export default function Button({texto, aoClicar}: BotaoProps) { //: → tipo
+export default function Button({texto, aoClicar, children, cor = "bg-neutral-500"}: BotaoProps) { //: → tipo
   return (
   <button
     onClick={aoClicar}
-    className = "px-10 py-10 bg-blue-600 text-white rounded hover:bg-blue-700 transition" //hover - mouse em cima 
+    className="flex flex-col items-center px-5 py-2 text-white rounded hover:bg-neutral-700 transition font-mono text-2xl" //hover → mouse em cima 
   >
-    {texto}
+    {children}
+    <span className="mt-2">{texto}</span>
   </button>
     
   );
