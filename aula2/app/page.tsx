@@ -24,7 +24,7 @@ export default function Home() {
     <div className="flex gap-4 font-serif text-2x1 drop-shadow-lg italic">
 
       <Button texto = {"Ágatha"} aoClicar={() => router.push('/Agatha')}>
-        <Image src="/images/agatha1.png" 
+        <Image src="/images/fotosAgatha/agatha1.png" 
           alt="Imagem da Agatha" 
           width={250} 
           height={250}
@@ -32,7 +32,7 @@ export default function Home() {
       </Button>
 
       <Button texto = {"Flocos"} aoClicar={() => router.push('/Flocos')}>
-        <Image src="/images/flocos1.png" 
+        <Image src="/images/fotosFlocos/flocos1.png" 
           alt="Imagem do Flocos" 
           width={250} 
           height={250}
@@ -40,7 +40,7 @@ export default function Home() {
       </Button> 
 
       <Button texto = {"Frajola"} aoClicar={() => router.push('/Frajola')}>
-        <Image src="/images/frajola1.png" 
+        <Image src="/images/fotosFrajola/frajola1.png" 
           alt="Imagem do Frajola" 
           width={250} 
           height={250}
@@ -48,7 +48,7 @@ export default function Home() {
       </Button>
 
       <Button texto = {"Gaya"} aoClicar={() => router.push('/Gaya')}>
-        <Image src="/images/gaya1.png" 
+        <Image src="/images/fotosGaya/gaya1.png" 
           alt="Imagem do Gaya" 
           width={250} 
           height={250}
@@ -56,7 +56,7 @@ export default function Home() {
       </Button>
       
       <Button texto = {"Goiaba"} aoClicar={() => router.push('/Goiaba')}>
-        <Image src="/images/goiaba1.png" 
+        <Image src="/images/fotosGoiaba/goiaba1.png" 
           alt="Imagem da Goiaba" 
           width={250} 
           height={250}
